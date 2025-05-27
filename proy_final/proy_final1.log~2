@@ -1,5 +1,5 @@
 
---- Job proy_final.gms Start 05/26/25 15:59:20 48.6.1 67fbb04b LEX-LEG x86 64bit/Linux
+--- Job proy_final.gms Start 05/26/25 16:03:50 48.6.1 67fbb04b LEX-LEG x86 64bit/Linux
 --- Applying:
     /opt/gams/gams48.6_linux_x64_64_sfx/gmsprmun.txt
     /home/alaiinx/.config/GAMS/gamsconfig.yaml
@@ -21,16 +21,16 @@ Licensee: Academic User                                  G250215+0003Ac-GEN
 Processor information: 1 socket(s), 10 core(s), and 16 thread(s) available
 GAMS 48.6.1   Copyright (C) 1987-2025 GAMS Development. All rights reserved
 --- Starting compilation
---- proy_final.gms(248) 2 Mb
+--- proy_final.gms(250) 2 Mb
 --- Starting execution: elapsed 0:00:00.007
 --- Generating LP model Genero_X
---- proy_final.gms(248) 3 Mb
+--- proy_final.gms(250) 3 Mb
 ---   200 rows  316 columns  2,675 non-zeroes
 --- Range statistics (absolute non-zero finite values)
 --- RHS       [min, max] : [ 1.000E+00, 1.000E+01] - Zero values observed as well
 --- Bound     [min, max] : [        NA,        NA] - Zero values observed as well
 --- Matrix    [min, max] : [ 1.000E+00, 1.000E+01]
---- Executing CPLEX (Solvelink=2): elapsed 0:00:00.016
+--- Executing CPLEX (Solvelink=2): elapsed 0:00:00.019
 
 IBM ILOG CPLEX   48.6.1 67fbb04b Jan 23, 2025          LEG x86 64bit/Linux    
 
@@ -46,16 +46,25 @@ CPXPARAM_Advance                                 0
 CPXPARAM_MIP_Display                             4
 CPXPARAM_MIP_Pool_Capacity                       0
 CPXPARAM_MIP_Tolerances_AbsMIPGap                0
-Dual infeasible due to empty column 'E121'.
-Presolve time = 0.00 sec. (0.06 ticks)
+Tried aggregator 1 time.
+LP Presolve eliminated 3 rows and 1 columns.
+Reduced LP has 196 rows, 315 columns, and 2366 nonzeros.
+Presolve time = 0.00 sec. (0.66 ticks)
+Initializing dual steep norms . . .
 
---- LP status (4): unbounded or infeasible.
---- Cplex Time: 0.00sec (det. 0.06 ticks)
+Iteration log . . .
+Iteration:     1   Dual objective     =             0.000000
+Iteration:    62   Dual objective     =            66.703729
+Iteration:   124   Dual objective     =            99.705639
+Iteration:   186   Dual objective     =           117.400000
 
-*** WARNING: Presolve found the problem infeasible or unbounded
---- Cplex diagnoses the model to be either infeasible or unbounded.
---- There is no such GAMS Model Status so returning with a status of infeasible.
---- Model has been proven to be either infeasible or unbounded
+--- LP status (1): optimal.
+--- Cplex Time: 0.00sec (det. 4.36 ticks)
+
+
+Optimal solution found
+Objective:          119.253012
+
 --- Reading solution for model Genero_X
 *** Status: Normal completion
---- Job proy_final.gms Stop 05/26/25 15:59:20 elapsed 0:00:00.033
+--- Job proy_final.gms Stop 05/26/25 16:03:51 elapsed 0:00:00.076
