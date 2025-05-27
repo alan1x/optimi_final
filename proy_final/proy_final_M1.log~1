@@ -1,9 +1,9 @@
---- Job proy_final.gms Start 05/26/25 17:29:31 48.6.1 67fbb04b LEX-LEG x86 64bit/Linux
+--- Job proy_final_M.gms Start 05/26/25 17:50:35 48.6.1 67fbb04b LEX-LEG x86 64bit/Linux
 --- Applying:
     /opt/gams/gams48.6_linux_x64_64_sfx/gmsprmun.txt
     /home/alaiinx/.config/GAMS/gamsconfig.yaml
 --- GAMS Parameters defined
-    Input /home/alaiinx/Documentos/GAMS/Studio/workspace/proy_final/proy_final.gms
+    Input /home/alaiinx/Documentos/GAMS/Studio/workspace/proy_final/proy_final_M.gms
     PageSize 0
     ScrDir /home/alaiinx/Documentos/GAMS/Studio/workspace/proy_final/225a/
     SysDir /opt/gams/gams48.6_linux_x64_64_sfx/
@@ -20,24 +20,24 @@ Licensee: Academic User                                  G250215+0003Ac-GEN
 Processor information: 1 socket(s), 10 core(s), and 16 thread(s) available
 GAMS 48.6.1   Copyright (C) 1987-2025 GAMS Development. All rights reserved
 --- Starting compilation
---- proy_final.gms(250) 2 Mb
---- Starting execution: elapsed 0:00:00.004
+--- proy_final_M.gms(206) 2 Mb
+--- Starting execution: elapsed 0:00:00.005
 --- Generating LP model Genero_X
---- proy_final.gms(250) 3 Mb
----   200 rows  316 columns  2,675 non-zeroes
+--- proy_final_M.gms(206) 3 Mb
+---   157 rows  234 columns  1,974 non-zeroes
 --- Range statistics (absolute non-zero finite values)
 --- RHS       [min, max] : [ 1.000E+00, 1.000E+01] - Zero values observed as well
 --- Bound     [min, max] : [        NA,        NA] - Zero values observed as well
 --- Matrix    [min, max] : [ 1.000E+00, 1.000E+01]
---- Executing CPLEX (Solvelink=2): elapsed 0:00:00.015
+--- Executing CPLEX (Solvelink=2): elapsed 0:00:00.013
 
 IBM ILOG CPLEX   48.6.1 67fbb04b Jan 23, 2025          LEG x86 64bit/Linux    
 
 *** This solver runs with a community license. No commercial use.
 --- GMO setup time: 0.00s
---- GMO memory 0.56 Mb (peak 0.56 Mb)
+--- GMO memory 0.55 Mb (peak 0.55 Mb)
 --- Dictionary memory 0.00 Mb
---- Cplex 22.1.1.0 link memory 0.01 Mb (peak 0.05 Mb)
+--- Cplex 22.1.1.0 link memory 0.01 Mb (peak 0.04 Mb)
 --- Starting Cplex
 
 Version identifier: 22.1.1.0 | 2022-11-28 | 9160aff4d
@@ -46,24 +46,23 @@ CPXPARAM_MIP_Display                             4
 CPXPARAM_MIP_Pool_Capacity                       0
 CPXPARAM_MIP_Tolerances_AbsMIPGap                0
 Tried aggregator 1 time.
-LP Presolve eliminated 3 rows and 1 columns.
-Reduced LP has 196 rows, 315 columns, and 2366 nonzeros.
-Presolve time = 0.00 sec. (0.66 ticks)
+LP Presolve eliminated 0 rows and 1 columns.
+Reduced LP has 156 rows, 233 columns, and 1753 nonzeros.
+Presolve time = 0.00 sec. (0.47 ticks)
 Initializing dual steep norms . . .
 
 Iteration log . . .
 Iteration:     1   Dual objective     =             0.000000
-Iteration:    62   Dual objective     =            66.703729
-Iteration:   124   Dual objective     =            99.705639
-Iteration:   186   Dual objective     =           117.400000
+Iteration:    62   Dual objective     =            54.628809
+Iteration:   124   Dual objective     =            78.701923
 
 --- LP status (1): optimal.
---- Cplex Time: 0.00sec (det. 4.36 ticks)
+--- Cplex Time: 0.00sec (det. 2.50 ticks)
 
 
 Optimal solution found
-Objective:          119.253012
+Objective:           79.400000
 
 --- Reading solution for model Genero_X
 *** Status: Normal completion
---- Job proy_final.gms Stop 05/26/25 17:29:31 elapsed 0:00:00.058
+--- Job proy_final_M.gms Stop 05/26/25 17:50:35 elapsed 0:00:00.060

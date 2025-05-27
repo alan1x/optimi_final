@@ -1,4 +1,4 @@
-GAMS 48.6.1  67fbb04b Jan 23, 2025          LEX-LEG x86 64bit/Linux - 05/26/25 17:50:35 Page 1
+GAMS 49.4.0  6fb2fe8b Apr 6, 2025           WEX-WEI x86 64bit/MS Windows - 05/27/25 17:15:51 Page 1
 G e n e r a l   A l g e b r a i c   M o d e l i n g   S y s t e m
 C o m p i l a t i o n
 
@@ -19,8 +19,8 @@ C o m p i l a t i o n
   14  f0,
   15  R1, R2, R3, R4, R5, R6, R7, R8, R9, R10, R11, R12, R13, R14, R15, R16, R17, R18, R19, R20, R21, R22, R23, R24, R25, R26, R27, R28, R29, R30, R31, R32, R33, R34, R35, R36, R37, R38, R39, R40, R41, R42, R43, R44, R45, R46, R47, R48, R49, R50, R51, R52, R53, R54, R55, R56, R57, R58, R59, R60,
   16  R61, R62, R63, R64, R65, R66, R67, R68, R69, R70, R71, R72, R73, R74, R75, R76, R77, R78, R79, R80, R81, R82, R83, R84, R85, R86, R87, R88, R89, R90, R91, R92, R93, R94, R95, R96, R97, R98, R99, R100, R101, R102, R103, R104, R105, R106, R107, R108, R109, R110, R111, R112, R113, R114, R115, R116, R117, R118, R119, R120,
-  17  R121,R122,R123,R124,R125,R126,R127,R128,R129,R130,R131,R132,R133,R134,R135,R136,R137,R138,R139,R140,R141,R142,R143,R144,R145,R146,R147,R148,R149,R150,R151,R152,R153,R154,R155,R156;
-  18   
+  17  R121,R122,R123,R124,R125,R126,R127,R128,R129,R130,R131,R132,R133,R134,R135,R136,R137,R138,R139,R140,R141,R142,R143,R144,R145,R146,R147,R148,R149,R150,R151,R152,R153,R154,R155,R156, R157, R158, R159, R160, R161, R162, R163, R164, R165, R166, R167, R168, R169, R170, R171, R172, R173, R174, R175, R176, R177, R178, R179,
+  18  R180, R181, R182;
   19   
   20   
   21  f0.. Z=E= L1+ L2+ L3+ L4+ L5+ L6+ L7+ L8+ L9+ L10+ L11+ L12+ L13+ L14+ L15+ L16+ L17+ L18+ L19+ L20+ L21+ L22+ L23+ L24+ L25+ L26+ L27+ L28+ L29+ L30+ L31+ L32+ L33+ L34+ L35+ L36+ L37+ L38+ L39+ L40+ L41+ L42+ L43+ L44+ L45+ L46+ L47+ L48+ L49+ L50+ L51+ L52+ L53+ L54+ L55+ L56+ L57+ L58+ L59+ L60+
@@ -200,21 +200,48 @@ C o m p i l a t i o n
  195  R155..F6=G=F7;
  196  R156..F6=G=F8;
  197   
- 198   
- 199  Model
- 200  Genero_X/ALL/;
- 201   
- 202  Solve
- 203  Genero_X USING LP MINIMIZING Z
- 204   
- 205   
- 206   
+ 198  R157..F1=L=0.5;
+ 199  R158..F2=L=0.5;
+ 200  R159..F3=L=0.5;
+ 201  R160..F4=L=0.5;
+ 202  R161..F5=L=0.5;
+ 203  R162..F6=L=0.5;
+ 204  R163..F7=L=0.5;
+ 205  R164..F8=L=0.5;
+ 206  R165..F9=L=0.5;
+ 207  R166..F10=L=0.5;
+ 208  R167..F11=L=0.5;
+ 209  R168..F12=L=0.5;
+ 210  R169..F13=L=0.5;
+ 211   
+ 212  R170..F1=G=0.03;
+ 213  R171..F2=G=0.03;
+ 214  R172..F3=G=0.03;
+ 215  R173..F4=G=0.03;
+ 216  R174..F5=G=0.03;
+ 217  R175..F6=G=0.03;
+ 218  R176..F7=G=0.03;
+ 219  R177..F8=G=0.03;
+ 220  R178..F9=G=0.03;
+ 221  R179..F10=G=0.03;
+ 222  R180..F11=G=0.03;
+ 223  R181..F12=G=0.03;
+ 224  R182..F13=G=0.03;
+ 225   
+ 226  Model
+ 227  Genero_X/ALL/;
+ 228   
+ 229  Solve
+ 230  Genero_X USING LP MINIMIZING Z
+ 231   
+ 232   
+ 233   
 
 
-COMPILATION TIME     =        0.002 SECONDS      2 MB  48.6.1 67fbb04b LEX-LEG
-GAMS 48.6.1  67fbb04b Jan 23, 2025          LEX-LEG x86 64bit/Linux - 05/26/25 17:50:35 Page 2
+COMPILATION TIME     =        0.000 SECONDS      2 MB  49.4.0 6fb2fe8b WEX-WEI
+GAMS 49.4.0  6fb2fe8b Apr 6, 2025           WEX-WEI x86 64bit/MS Windows - 05/27/25 17:15:51 Page 2
 G e n e r a l   A l g e b r a i c   M o d e l i n g   S y s t e m
-Equation Listing    SOLVE Genero_X Using LP From line 206
+Equation Listing    SOLVE Genero_X Using LP From line 233
 
 
 ---- f0  =E=  
@@ -1001,9 +1028,139 @@ R155..  F6 - F7 =G= 0 ; (LHS = 0)
 
 R156..  F6 - F8 =G= 0 ; (LHS = 0)
      
-GAMS 48.6.1  67fbb04b Jan 23, 2025          LEX-LEG x86 64bit/Linux - 05/26/25 17:50:35 Page 3
+
+---- R157  =L=  
+
+R157..  F1 =L= 0.5 ; (LHS = 0)
+     
+
+---- R158  =L=  
+
+R158..  F2 =L= 0.5 ; (LHS = 0)
+     
+
+---- R159  =L=  
+
+R159..  F3 =L= 0.5 ; (LHS = 0)
+     
+
+---- R160  =L=  
+
+R160..  F4 =L= 0.5 ; (LHS = 0)
+     
+
+---- R161  =L=  
+
+R161..  F5 =L= 0.5 ; (LHS = 0)
+     
+
+---- R162  =L=  
+
+R162..  F6 =L= 0.5 ; (LHS = 0)
+     
+
+---- R163  =L=  
+
+R163..  F7 =L= 0.5 ; (LHS = 0)
+     
+
+---- R164  =L=  
+
+R164..  F8 =L= 0.5 ; (LHS = 0)
+     
+
+---- R165  =L=  
+
+R165..  F9 =L= 0.5 ; (LHS = 0)
+     
+
+---- R166  =L=  
+
+R166..  F10 =L= 0.5 ; (LHS = 0)
+     
+
+---- R167  =L=  
+
+R167..  F11 =L= 0.5 ; (LHS = 0)
+     
+
+---- R168  =L=  
+
+R168..  F12 =L= 0.5 ; (LHS = 0)
+     
+
+---- R169  =L=  
+
+R169..  F13 =L= 0.5 ; (LHS = 0)
+     
+
+---- R170  =G=  
+
+R170..  F1 =G= 0.03 ; (LHS = 0, INFES = 0.03 ****)
+     
+
+---- R171  =G=  
+
+R171..  F2 =G= 0.03 ; (LHS = 0, INFES = 0.03 ****)
+     
+
+---- R172  =G=  
+
+R172..  F3 =G= 0.03 ; (LHS = 0, INFES = 0.03 ****)
+     
+
+---- R173  =G=  
+
+R173..  F4 =G= 0.03 ; (LHS = 0, INFES = 0.03 ****)
+     
+
+---- R174  =G=  
+
+R174..  F5 =G= 0.03 ; (LHS = 0, INFES = 0.03 ****)
+     
+
+---- R175  =G=  
+
+R175..  F6 =G= 0.03 ; (LHS = 0, INFES = 0.03 ****)
+     
+
+---- R176  =G=  
+
+R176..  F7 =G= 0.03 ; (LHS = 0, INFES = 0.03 ****)
+     
+
+---- R177  =G=  
+
+R177..  F8 =G= 0.03 ; (LHS = 0, INFES = 0.03 ****)
+     
+
+---- R178  =G=  
+
+R178..  F9 =G= 0.03 ; (LHS = 0, INFES = 0.03 ****)
+     
+
+---- R179  =G=  
+
+R179..  F10 =G= 0.03 ; (LHS = 0, INFES = 0.03 ****)
+     
+
+---- R180  =G=  
+
+R180..  F11 =G= 0.03 ; (LHS = 0, INFES = 0.03 ****)
+     
+
+---- R181  =G=  
+
+R181..  F12 =G= 0.03 ; (LHS = 0, INFES = 0.03 ****)
+     
+
+---- R182  =G=  
+
+R182..  F13 =G= 0.03 ; (LHS = 0, INFES = 0.03 ****)
+     
+GAMS 49.4.0  6fb2fe8b Apr 6, 2025           WEX-WEI x86 64bit/MS Windows - 05/27/25 17:15:51 Page 3
 G e n e r a l   A l g e b r a i c   M o d e l i n g   S y s t e m
-Column Listing      SOLVE Genero_X Using LP From line 206
+Column Listing      SOLVE Genero_X Using LP From line 233
 
 
 ---- L1  
@@ -2885,6 +3042,8 @@ F1
         1       R133
         1       R134
         1       R135
+        1       R157
+        1       R170
 
 
 ---- F2  
@@ -3012,6 +3171,8 @@ F2
        -1       R148
        -1       R151
        -1       R154
+        1       R158
+        1       R171
 
 
 ---- F3  
@@ -3140,6 +3301,8 @@ F3
         1       R120
         1       R121
         1       R122
+        1       R159
+        1       R172
 
 
 ---- F4  
@@ -3262,6 +3425,8 @@ F4
         1       R136
         1       R137
         1       R138
+        1       R160
+        1       R173
 
 
 ---- F5  
@@ -3384,6 +3549,8 @@ F5
         1       R151
         1       R152
         1       R153
+        1       R161
+        1       R174
 
 
 ---- F6  
@@ -3506,6 +3673,8 @@ F6
         1       R154
         1       R155
         1       R156
+        1       R162
+        1       R175
 
 
 ---- F7  
@@ -3633,6 +3802,8 @@ F7
        -1       R149
        -1       R152
        -1       R155
+        1       R163
+        1       R176
 
 
 ---- F8  
@@ -3760,6 +3931,8 @@ F8
        -1       R150
        -1       R153
        -1       R156
+        1       R164
+        1       R177
 
 
 ---- F9  
@@ -3882,6 +4055,8 @@ F9
         1       R145
         1       R146
         1       R147
+        1       R165
+        1       R178
 
 
 ---- F10  
@@ -4004,6 +4179,8 @@ F10
         1       R142
         1       R143
         1       R144
+        1       R166
+        1       R179
 
 
 ---- F11  
@@ -4126,6 +4303,8 @@ F11
         1       R148
         1       R149
         1       R150
+        1       R167
+        1       R180
 
 
 ---- F12  
@@ -4248,6 +4427,8 @@ F12
         1       R139
         1       R140
         1       R141
+        1       R168
+        1       R181
 
 
 ---- F13  
@@ -4375,6 +4556,8 @@ F13
         1       R130
         1       R131
         1       R132
+        1       R169
+        1       R182
 
 
 ---- Z  
@@ -4383,61 +4566,61 @@ Z
                 (.LO, .L, .UP, .M = -INF, 0, +INF, 0)
         1       f0
 
-GAMS 48.6.1  67fbb04b Jan 23, 2025          LEX-LEG x86 64bit/Linux - 05/26/25 17:50:35 Page 4
+GAMS 49.4.0  6fb2fe8b Apr 6, 2025           WEX-WEI x86 64bit/MS Windows - 05/27/25 17:15:51 Page 4
 G e n e r a l   A l g e b r a i c   M o d e l i n g   S y s t e m
-Range Statistics    SOLVE Genero_X Using LP From line 206
+Range Statistics    SOLVE Genero_X Using LP From line 233
 
 
 RANGE STATISTICS (ABSOLUTE NON-ZERO FINITE VALUES)
 
-RHS       [min, max] : [ 1.000E+00, 1.000E+01] - Zero values observed as well
+RHS       [min, max] : [ 3.000E-02, 1.000E+01] - Zero values observed as well
 Bound     [min, max] : [        NA,        NA] - Zero values observed as well
 Matrix    [min, max] : [ 1.000E+00, 1.000E+01]
 
-GAMS 48.6.1  67fbb04b Jan 23, 2025          LEX-LEG x86 64bit/Linux - 05/26/25 17:50:35 Page 5
+GAMS 49.4.0  6fb2fe8b Apr 6, 2025           WEX-WEI x86 64bit/MS Windows - 05/27/25 17:15:51 Page 5
 G e n e r a l   A l g e b r a i c   M o d e l i n g   S y s t e m
-Model Statistics    SOLVE Genero_X Using LP From line 206
+Model Statistics    SOLVE Genero_X Using LP From line 233
 
 
 MODEL STATISTICS
 
-BLOCKS OF EQUATIONS         157     SINGLE EQUATIONS          157
+BLOCKS OF EQUATIONS         183     SINGLE EQUATIONS          183
 BLOCKS OF VARIABLES         234     SINGLE VARIABLES          234
-NON ZERO ELEMENTS         1,974
+NON ZERO ELEMENTS         2,000
 
 
-GENERATION TIME      =        0.008 SECONDS      3 MB  48.6.1 67fbb04b LEX-LEG
-GAMS 48.6.1  67fbb04b Jan 23, 2025          LEX-LEG x86 64bit/Linux - 05/26/25 17:50:35 Page 6
+GENERATION TIME      =        0.016 SECONDS      3 MB  49.4.0 6fb2fe8b WEX-WEI
+GAMS 49.4.0  6fb2fe8b Apr 6, 2025           WEX-WEI x86 64bit/MS Windows - 05/27/25 17:15:51 Page 6
 G e n e r a l   A l g e b r a i c   M o d e l i n g   S y s t e m
-Solution Report     SOLVE Genero_X Using LP From line 206
+Solution Report     SOLVE Genero_X Using LP From line 233
 
 
                S O L V E      S U M M A R Y
 
      MODEL   Genero_X            OBJECTIVE  Z
      TYPE    LP                  DIRECTION  MINIMIZE
-     SOLVER  CPLEX               FROM LINE  206
+     SOLVER  CPLEX               FROM LINE  233
 
 **** SOLVER STATUS     1 Normal Completion
 **** MODEL STATUS      1 Optimal
-**** OBJECTIVE VALUE               79.4000
+**** OBJECTIVE VALUE               90.3345
 
- RESOURCE USAGE, LIMIT          0.002 10000000000.000
- ITERATION COUNT, LIMIT       135    2147483647
-*** This solver runs with a community license. No commercial use.
+ RESOURCE USAGE, LIMIT          0.000 10000000000.000
+ ITERATION COUNT, LIMIT       160    2147483647
+*** This solver runs with a demo license. No commercial use.
 --- GMO setup time: 0.00s
 --- GMO memory 0.55 Mb (peak 0.55 Mb)
 --- Dictionary memory 0.00 Mb
---- Cplex 22.1.1.0 link memory 0.01 Mb (peak 0.04 Mb)
+--- Cplex 22.1.2.0 link memory 0.01 Mb (peak 0.04 Mb)
 --- Starting Cplex
 
 
 --- LP status (1): optimal.
---- Cplex Time: 0.00sec (det. 2.50 ticks)
+--- Cplex Time: 0.00sec (det. 2.66 ticks)
 
 
 Optimal solution found
-Objective:           79.400000
+Objective:           90.334545
 
 
                            LOWER          LEVEL          UPPER         MARGINAL
@@ -4447,7 +4630,7 @@ Objective:           79.400000
 ---- EQU R2                 9.0000         9.0000         9.0000         1.0000      
 ---- EQU R3                 9.0000         9.0000         9.0000        -1.0000      
 ---- EQU R4                 7.0000         7.0000         7.0000        -1.0000      
----- EQU R5                10.0000        10.0000        10.0000        -1.0000      
+---- EQU R5                10.0000        10.0000        10.0000         1.0000      
 ---- EQU R6                 9.0000         9.0000         9.0000        -1.0000      
 ---- EQU R7                 9.0000         9.0000         9.0000        -1.0000      
 ---- EQU R8                 1.0000         1.0000         1.0000        -1.0000      
@@ -4462,19 +4645,19 @@ Objective:           79.400000
 ---- EQU R17                9.0000         9.0000         9.0000         1.0000      
 ---- EQU R18               10.0000        10.0000        10.0000         1.0000      
 ---- EQU R19                9.0000         9.0000         9.0000        -1.0000      
----- EQU R20               10.0000        10.0000        10.0000        -1.0000      
+---- EQU R20               10.0000        10.0000        10.0000         1.0000      
 ---- EQU R21                9.0000         9.0000         9.0000        -1.0000      
 ---- EQU R22               10.0000        10.0000        10.0000         1.0000      
 ---- EQU R23                9.0000         9.0000         9.0000         1.0000      
----- EQU R24                9.0000         9.0000         9.0000        -1.0000      
+---- EQU R24                9.0000         9.0000         9.0000         1.0000      
 ---- EQU R25                9.0000         9.0000         9.0000         1.0000      
----- EQU R26                9.0000         9.0000         9.0000         0.6000      
+---- EQU R26                9.0000         9.0000         9.0000         1.0000      
 ---- EQU R27               10.0000        10.0000        10.0000         1.0000      
 ---- EQU R28                9.0000         9.0000         9.0000         1.0000      
----- EQU R29                9.0000         9.0000         9.0000        -1.0000      
+---- EQU R29                9.0000         9.0000         9.0000         1.0000      
 ---- EQU R30               10.0000        10.0000        10.0000         1.0000      
 ---- EQU R31                8.0000         8.0000         8.0000        -1.0000      
----- EQU R32                9.0000         9.0000         9.0000        -1.0000      
+---- EQU R32                9.0000         9.0000         9.0000         1.0000      
 ---- EQU R33                8.0000         8.0000         8.0000        -1.0000      
 ---- EQU R34               10.0000        10.0000        10.0000         1.0000      
 ---- EQU R35               10.0000        10.0000        10.0000         1.0000      
@@ -4483,7 +4666,7 @@ Objective:           79.400000
 ---- EQU R38               10.0000        10.0000        10.0000         1.0000      
 ---- EQU R39                9.0000         9.0000         9.0000         1.0000      
 ---- EQU R40               10.0000        10.0000        10.0000         1.0000      
----- EQU R41               10.0000        10.0000        10.0000        -1.0000      
+---- EQU R41               10.0000        10.0000        10.0000         1.0000      
 ---- EQU R42                9.0000         9.0000         9.0000        -1.0000      
 ---- EQU R43                9.0000         9.0000         9.0000         1.0000      
 ---- EQU R44                8.0000         8.0000         8.0000        -1.0000      
@@ -4497,8 +4680,8 @@ Objective:           79.400000
 ---- EQU R52                9.0000         9.0000         9.0000         1.0000      
 ---- EQU R53               10.0000        10.0000        10.0000         1.0000      
 ---- EQU R54                9.0000         9.0000         9.0000         1.0000      
----- EQU R55               10.0000        10.0000        10.0000        -1.0000      
----- EQU R56                9.0000         9.0000         9.0000        -1.0000      
+---- EQU R55               10.0000        10.0000        10.0000         1.0000      
+---- EQU R56                9.0000         9.0000         9.0000         1.0000      
 ---- EQU R57               10.0000        10.0000        10.0000         1.0000      
 ---- EQU R58                8.0000         8.0000         8.0000        -1.0000      
 ---- EQU R59                9.0000         9.0000         9.0000         1.0000      
@@ -4512,24 +4695,24 @@ Objective:           79.400000
 ---- EQU R67                9.0000         9.0000         9.0000         1.0000      
 ---- EQU R68                8.0000         8.0000         8.0000         1.0000      
 ---- EQU R69                8.0000         8.0000         8.0000        -1.0000      
----- EQU R70               10.0000        10.0000        10.0000          .          
----- EQU R71                9.0000         9.0000         9.0000        -1.0000      
+---- EQU R70               10.0000        10.0000        10.0000         1.0000      
+---- EQU R71                9.0000         9.0000         9.0000         1.0000      
 ---- EQU R72               10.0000        10.0000        10.0000         1.0000      
 ---- EQU R73                9.0000         9.0000         9.0000         1.0000      
 ---- EQU R74                7.0000         7.0000         7.0000         1.0000      
 ---- EQU R75                9.0000         9.0000         9.0000         1.0000      
 ---- EQU R76               10.0000        10.0000        10.0000         1.0000      
 ---- EQU R77               10.0000        10.0000        10.0000         1.0000      
----- EQU R78                8.0000         8.0000         8.0000        -1.0000      
+---- EQU R78                8.0000         8.0000         8.0000         1.0000      
 ---- EQU R79               10.0000        10.0000        10.0000         1.0000      
 ---- EQU R80                9.0000         9.0000         9.0000         1.0000      
----- EQU R81               10.0000        10.0000        10.0000          .          
----- EQU R82                9.0000         9.0000         9.0000         1.0000      
+---- EQU R81               10.0000        10.0000        10.0000         1.0000      
+---- EQU R82                9.0000         9.0000         9.0000          .          
 ---- EQU R83               10.0000        10.0000        10.0000          .          
----- EQU R84                9.0000         9.0000         9.0000        -1.0000      
+---- EQU R84                9.0000         9.0000         9.0000         1.0000      
 ---- EQU R85                9.0000         9.0000         9.0000        -1.0000      
 ---- EQU R86               10.0000        10.0000        10.0000         1.0000      
----- EQU R87               10.0000        10.0000        10.0000        -0.2800      
+---- EQU R87               10.0000        10.0000        10.0000         1.0000      
 ---- EQU R88                8.0000         8.0000         8.0000        -1.0000      
 ---- EQU R89                9.0000         9.0000         9.0000        -1.0000      
 ---- EQU R90               10.0000        10.0000        10.0000          .          
@@ -4540,11 +4723,11 @@ Objective:           79.400000
 ---- EQU R95                9.0000         9.0000         9.0000        -1.0000      
 ---- EQU R96                9.0000         9.0000         9.0000         1.0000      
 ---- EQU R97               10.0000        10.0000        10.0000         1.0000      
----- EQU R98                8.0000         8.0000         8.0000        -1.0000      
+---- EQU R98                8.0000         8.0000         8.0000         0.4545      
 ---- EQU R99                7.0000         7.0000         7.0000        -1.0000      
 ---- EQU R100               8.0000         8.0000         8.0000        -1.0000      
 ---- EQU R101               7.0000         7.0000         7.0000        -1.0000      
----- EQU R102               8.0000         8.0000         8.0000        -1.0000      
+---- EQU R102               8.0000         8.0000         8.0000         1.0000      
 ---- EQU R103               8.0000         8.0000         8.0000        -1.0000      
 ---- EQU R104               9.0000         9.0000         9.0000         1.0000      
 ---- EQU R105               4.0000         4.0000         4.0000        -1.0000      
@@ -4552,199 +4735,225 @@ Objective:           79.400000
 ---- EQU R107               8.0000         8.0000         8.0000         1.0000      
 ---- EQU R108               9.0000         9.0000         9.0000         1.0000      
 ---- EQU R109               8.0000         8.0000         8.0000         1.0000      
----- EQU R110              10.0000        10.0000        10.0000        -1.0000      
----- EQU R111               1.0000         1.0000         1.0000      -171.2000      
----- EQU R112                .              .            +INF            9.0000      
----- EQU R113                .             0.1000        +INF             .          
----- EQU R114                .             0.1000        +INF             .          
----- EQU R115                .             0.1000        +INF             .          
----- EQU R116                .              .            +INF           10.0000      
----- EQU R117                .             0.1000        +INF             .          
----- EQU R118                .       -2.08167E-16        +INF             .          
----- EQU R119                .             0.1000        +INF             .          
----- EQU R120                .             0.1000        +INF             .          
----- EQU R121                .             0.1000        +INF             .          
----- EQU R122                .             0.1000        +INF             .          
----- EQU R123                .             0.6000        +INF             .          
----- EQU R124                .             0.6000        +INF             .          
----- EQU R125                .             0.6000        +INF             .          
----- EQU R126                .             0.5000        +INF             .          
----- EQU R127                .             0.6000        +INF             .          
----- EQU R128                .             0.5000        +INF             .          
----- EQU R129                .             0.6000        +INF             .          
----- EQU R130                .             0.6000        +INF             .          
----- EQU R131                .             0.6000        +INF             .          
----- EQU R132                .             0.6000        +INF             .          
----- EQU R133                .             0.1000        +INF             .          
----- EQU R134                .             0.1000        +INF             .          
----- EQU R135                .             0.1000        +INF             .          
+---- EQU R110              10.0000        10.0000        10.0000         1.0000      
+---- EQU R111               1.0000         1.0000         1.0000      -445.4545      
+---- EQU R112                .              .            +INF           14.2727      
+---- EQU R113                .             0.0355        +INF             .          
+---- EQU R114                .             0.0355        +INF             .          
+---- EQU R115                .             0.0355        +INF             .          
+---- EQU R116                .             0.0018        +INF             .          
+---- EQU R117                .             0.0355        +INF             .          
+---- EQU R118                .              .            +INF            3.0909      
+---- EQU R119                .             0.0355        +INF             .          
+---- EQU R120                .             0.0355        +INF             .          
+---- EQU R121                .             0.0355        +INF             .          
+---- EQU R122                .             0.0355        +INF             .          
+---- EQU R123                .             0.4700        +INF             .          
+---- EQU R124                .             0.4700        +INF             .          
+---- EQU R125                .             0.4700        +INF             .          
+---- EQU R126                .             0.4364        +INF             .          
+---- EQU R127                .             0.4700        +INF             .          
+---- EQU R128                .             0.4345        +INF             .          
+---- EQU R129                .             0.4700        +INF             .          
+---- EQU R130                .             0.4700        +INF             .          
+---- EQU R131                .             0.4700        +INF             .          
+---- EQU R132                .             0.4700        +INF             .          
+---- EQU R133                .             0.0355        +INF             .          
+---- EQU R134                .             0.0355        +INF             .          
+---- EQU R135                .             0.0355        +INF             .          
 ---- EQU R136                .              .            +INF             .          
 ---- EQU R137                .              .            +INF             .          
 ---- EQU R138                .              .            +INF             .          
----- EQU R139                .              .            +INF           14.0000      
+---- EQU R139                .              .            +INF             .          
 ---- EQU R140                .              .            +INF             .          
 ---- EQU R141                .              .            +INF             .          
 ---- EQU R142                .              .            +INF             .          
----- EQU R143                .              .            +INF            8.0000      
+---- EQU R143                .              .            +INF             .          
 ---- EQU R144                .              .            +INF             .          
----- EQU R145                .             0.1000        +INF             .          
----- EQU R146                .             0.1000        +INF             .          
----- EQU R147                .             0.1000        +INF             .          
+---- EQU R145                .             0.0336        +INF             .          
+---- EQU R146                .             0.0336        +INF             .          
+---- EQU R147                .             0.0336        +INF             .          
 ---- EQU R148                .              .            +INF             .          
 ---- EQU R149                .              .            +INF             .          
 ---- EQU R150                .              .            +INF             .          
----- EQU R151                .             0.1000        +INF             .          
----- EQU R152                .             0.1000        +INF             .          
----- EQU R153                .             0.1000        +INF             .          
+---- EQU R151                .             0.0355        +INF             .          
+---- EQU R152                .             0.0355        +INF             .          
+---- EQU R153                .             0.0355        +INF             .          
 ---- EQU R154                .              .            +INF             .          
 ---- EQU R155                .              .            +INF             .          
 ---- EQU R156                .              .            +INF             .          
+---- EQU R157              -INF            0.0655         0.5000          .          
+---- EQU R158              -INF            0.0300         0.5000          .          
+---- EQU R159              -INF            0.0655         0.5000          .          
+---- EQU R160              -INF            0.0300         0.5000          .          
+---- EQU R161              -INF            0.0655         0.5000          .          
+---- EQU R162              -INF            0.0300         0.5000          .          
+---- EQU R163              -INF            0.0300         0.5000          .          
+---- EQU R164              -INF            0.0300         0.5000          .          
+---- EQU R165              -INF            0.0636         0.5000          .          
+---- EQU R166              -INF            0.0300         0.5000          .          
+---- EQU R167              -INF            0.0300         0.5000          .          
+---- EQU R168              -INF            0.0300         0.5000          .          
+---- EQU R169              -INF            0.5000         0.5000       -13.6364      
+---- EQU R170               0.0300         0.0655        +INF             .          
+---- EQU R171               0.0300         0.0300        +INF           53.2727      
+---- EQU R172               0.0300         0.0655        +INF             .          
+---- EQU R173               0.0300         0.0300        +INF            3.8182      
+---- EQU R174               0.0300         0.0655        +INF             .          
+---- EQU R175               0.0300         0.0300        +INF           34.9091      
+---- EQU R176               0.0300         0.0300        +INF          117.9091      
+---- EQU R177               0.0300         0.0300        +INF          141.0909      
+---- EQU R178               0.0300         0.0636        +INF             .          
+---- EQU R179               0.0300         0.0300        +INF           24.7273      
+---- EQU R180               0.0300         0.0300        +INF           33.7273      
+---- EQU R181               0.0300         0.0300        +INF           22.9091      
+---- EQU R182               0.0300         0.5000        +INF             .          
 
                            LOWER          LEVEL          UPPER         MARGINAL
 
----- VAR L1                  .             0.3000        +INF             .          
----- VAR L2                  .             0.2000        +INF             .          
+---- VAR L1                  .             0.4964        +INF             .          
+---- VAR L2                  .             0.2191        +INF             .          
 ---- VAR L3                  .              .            +INF            2.0000      
 ---- VAR L4                  .              .            +INF            2.0000      
----- VAR L5                  .              .            +INF            2.0000      
+---- VAR L5                  .             0.1200        +INF             .          
 ---- VAR L6                  .              .            +INF            2.0000      
 ---- VAR L7                  .              .            +INF            2.0000      
 ---- VAR L8                  .              .            +INF            2.0000      
----- VAR L9                  .             0.1000        +INF             .          
----- VAR L10                 .             0.4000        +INF             .          
+---- VAR L9                  .             0.3073        +INF             .          
+---- VAR L10                 .             0.4627        +INF             .          
 ---- VAR L11                 .              .            +INF            1.0000      
 ---- VAR L12                 .              .            +INF            2.0000      
----- VAR L13                 .             0.4000        +INF             .          
----- VAR L14                 .             0.2000        +INF             .          
----- VAR L15                 .             1.4000        +INF             .          
----- VAR L16                 .             0.4000        +INF             .          
----- VAR L17                 .             0.3000        +INF             .          
----- VAR L18                 .             0.5000        +INF             .          
+---- VAR L13                 .             0.4100        +INF             .          
+---- VAR L14                 .             0.4609        +INF             .          
+---- VAR L15                 .             1.4564        +INF             .          
+---- VAR L16                 .             0.8355        +INF             .          
+---- VAR L17                 .             0.6164        +INF             .          
+---- VAR L18                 .             0.7173        +INF             .          
 ---- VAR L19                 .              .            +INF            2.0000      
----- VAR L20                 .              .            +INF            2.0000      
+---- VAR L20                 .             0.0600        +INF             .          
 ---- VAR L21                 .              .            +INF            2.0000      
----- VAR L22                 .             0.5000        +INF             .          
----- VAR L23                 .             2.8000        +INF             .          
----- VAR L24                 .              .            +INF            2.0000      
----- VAR L25                 .             0.4000        +INF             .          
----- VAR L26                 .              .            +INF            0.4000      
----- VAR L27                 .             0.4000        +INF             .          
----- VAR L28                 .             0.1000        +INF             .          
----- VAR L29                 .              .            +INF            2.0000      
----- VAR L30                 .             0.1000        +INF             .          
+---- VAR L22                 .             0.6273        +INF             .          
+---- VAR L23                 .             2.8109        +INF             .          
+---- VAR L24                 .             0.1891        +INF             .          
+---- VAR L25                 .             0.6627        +INF             .          
+---- VAR L26                 .             0.6655        +INF             .          
+---- VAR L27                 .             0.8000        +INF             .          
+---- VAR L28                 .             0.6373        +INF             .          
+---- VAR L29                 .             0.0664        +INF             .          
+---- VAR L30                 .             0.7255        +INF             .          
 ---- VAR L31                 .              .            +INF            2.0000      
----- VAR L32                 .              .            +INF            2.0000      
+---- VAR L32                 .             0.5045        +INF             .          
 ---- VAR L33                 .              .            +INF            2.0000      
----- VAR L34                 .             0.9000        +INF             .          
----- VAR L35                 .             0.4000        +INF             .          
----- VAR L36                 .             0.2000        +INF             .          
----- VAR L37                 .              .            +INF             .          
----- VAR L38                 .             3.2000        +INF             .          
----- VAR L39                 .              .            +INF            EPS         
----- VAR L40                 .             0.1000        +INF             .          
----- VAR L41                 .              .            +INF            2.0000      
+---- VAR L34                 .             1.3036        +INF             .          
+---- VAR L35                 .             0.3200        +INF             .          
+---- VAR L36                 .             0.1327        +INF             .          
+---- VAR L37                 .             0.3300        +INF             .          
+---- VAR L38                 .             3.5445        +INF             .          
+---- VAR L39                 .             0.1536        +INF             .          
+---- VAR L40                 .             0.5755        +INF             .          
+---- VAR L41                 .             0.1500        +INF             .          
 ---- VAR L42                 .              .            +INF            2.0000      
----- VAR L43                 .             1.5000        +INF             .          
+---- VAR L43                 .             1.7400        +INF             .          
 ---- VAR L44                 .              .            +INF            2.0000      
----- VAR L45                 .             1.2000        +INF             .          
+---- VAR L45                 .             1.7500        +INF             .          
 ---- VAR L46                 .              .            +INF            2.0000      
----- VAR L47                 .             0.1000        +INF             .          
----- VAR L48                 .             0.6000        +INF             .          
----- VAR L49                 .             0.1000        +INF             .          
+---- VAR L47                 .             0.3355        +INF             .          
+---- VAR L48                 .             0.6273        +INF             .          
+---- VAR L49                 .             0.4255        +INF             .          
 ---- VAR L50                 .              .            +INF            1.0000      
----- VAR L51                 .             1.1000        +INF             .          
----- VAR L52                 .             0.1000        +INF             .          
----- VAR L53                 .             0.3000        +INF             .          
----- VAR L54                 .             1.1000        +INF             .          
----- VAR L55                 .              .            +INF            2.0000      
----- VAR L56                 .              .            +INF            2.0000      
----- VAR L57                 .             0.3000        +INF             .          
+---- VAR L51                 .             1.2791        +INF             .          
+---- VAR L52                 .             0.2418        +INF             .          
+---- VAR L53                 .             0.3745        +INF             .          
+---- VAR L54                 .             1.0055        +INF             .          
+---- VAR L55                 .             0.6600        +INF             .          
+---- VAR L56                 .             0.1673        +INF             .          
+---- VAR L57                 .             0.4345        +INF             .          
 ---- VAR L58                 .              .            +INF            2.0000      
----- VAR L59                 .             1.6000        +INF             .          
----- VAR L60                 .             2.0000        +INF             .          
----- VAR L61                 .             1.8000        +INF             .          
+---- VAR L59                 .             1.6164        +INF             .          
+---- VAR L60                 .             2.1709        +INF             .          
+---- VAR L61                 .             1.7100        +INF             .          
 ---- VAR L62                 .              .            +INF            2.0000      
----- VAR L63                 .             2.2000        +INF             .          
+---- VAR L63                 .             2.6745        +INF             .          
 ---- VAR L64                 .             2.0000        +INF             .          
----- VAR L65                 .             0.7000        +INF             .          
----- VAR L66                 .             1.4000        +INF             .          
----- VAR L67                 .             0.3000        +INF             .          
----- VAR L68                 .             2.8000        +INF             .          
+---- VAR L65                 .             1.2555        +INF             .          
+---- VAR L66                 .             1.5473        +INF             .          
+---- VAR L67                 .             0.5564        +INF             .          
+---- VAR L68                 .             2.9682        +INF             .          
 ---- VAR L69                 .              .            +INF            2.0000      
----- VAR L70                 .              .            +INF            1.0000      
----- VAR L71                 .              .            +INF            2.0000      
----- VAR L72                 .             1.0000        +INF             .          
----- VAR L73                 .             0.1000        +INF             .          
----- VAR L74                 .             0.4000        +INF             .          
----- VAR L75                 .             0.7000        +INF             .          
----- VAR L76                 .             0.3000        +INF             .          
----- VAR L77                 .             0.3000        +INF             .          
----- VAR L78                 .              .            +INF            2.0000      
----- VAR L79                 .             1.3000        +INF             .          
----- VAR L80                 .             1.2000        +INF             .          
----- VAR L81                 .              .            +INF            1.0000      
----- VAR L82                 .             0.2000        +INF             .          
+---- VAR L70                 .             0.2400        +INF             .          
+---- VAR L71                 .             0.0564        +INF             .          
+---- VAR L72                 .             1.2755        +INF             .          
+---- VAR L73                 .             0.3445        +INF             .          
+---- VAR L74                 .             0.0091        +INF             .          
+---- VAR L75                 .             1.1636        +INF             .          
+---- VAR L76                 .             0.5564        +INF             .          
+---- VAR L77                 .             0.4364        +INF             .          
+---- VAR L78                 .             0.0300        +INF             .          
+---- VAR L79                 .             1.3127        +INF             .          
+---- VAR L80                 .             1.3000        +INF             .          
+---- VAR L81                 .             0.1500        +INF             .          
+---- VAR L82                 .              .            +INF            1.0000      
 ---- VAR L83                 .              .            +INF            1.0000      
----- VAR L84                 .              .            +INF            2.0000      
+---- VAR L84                 .             0.1164        +INF             .          
 ---- VAR L85                 .              .            +INF            2.0000      
----- VAR L86                 .             1.0000        +INF             .          
----- VAR L87                 .              .            +INF            1.2800      
+---- VAR L86                 .             1.4800        +INF             .          
+---- VAR L87                 .             0.2700        +INF             .          
 ---- VAR L88                 .              .            +INF            2.0000      
 ---- VAR L89                 .              .            +INF            2.0000      
 ---- VAR L90                 .              .            +INF            1.0000      
----- VAR L91                 .             0.3000        +INF             .          
----- VAR L92                 .             1.3000        +INF             .          
+---- VAR L91                 .             0.3164        +INF             .          
+---- VAR L92                 .             1.2264        +INF             .          
 ---- VAR L93                 .              .            +INF            2.0000      
----- VAR L94                 .             0.5000        +INF             .          
+---- VAR L94                 .             0.3855        +INF             .          
 ---- VAR L95                 .              .            +INF            2.0000      
----- VAR L96                 .             0.5000        +INF             .          
----- VAR L97                 .             1.6000        +INF             .          
----- VAR L98                 .              .            +INF            2.0000      
+---- VAR L96                 .             0.9855        +INF             .          
+---- VAR L97                 .             2.4618        +INF             .          
+---- VAR L98                 .              .            +INF            0.5455      
 ---- VAR L99                 .              .            +INF            2.0000      
 ---- VAR L100                .              .            +INF            2.0000      
 ---- VAR L101                .              .            +INF            2.0000      
----- VAR L102                .              .            +INF            2.0000      
+---- VAR L102                .             0.0191        +INF             .          
 ---- VAR L103                .              .            +INF            2.0000      
----- VAR L104                .             0.8000        +INF             .          
+---- VAR L104                .             1.1218        +INF             .          
 ---- VAR L105                .              .            +INF            2.0000      
----- VAR L106                .             0.4000        +INF             .          
----- VAR L107                .             0.6000        +INF             .          
----- VAR L108                .             0.1000        +INF             .          
----- VAR L109                .             4.2000        +INF             .          
----- VAR L110                .              .            +INF            2.0000      
+---- VAR L106                .             0.7400        +INF             .          
+---- VAR L107                .             0.7382        +INF             .          
+---- VAR L108                .             0.4873        +INF             .          
+---- VAR L109                .             3.9609        +INF             .          
+---- VAR L110                .             0.1800        +INF             .          
 ---- VAR E1                  .              .            +INF            2.0000      
 ---- VAR E2                  .              .            +INF            2.0000      
----- VAR E3                  .             0.5000        +INF             .          
----- VAR E4                  .             1.3000        +INF             .          
----- VAR E5                  .              .            +INF             .          
----- VAR E6                  .             0.6000        +INF             .          
----- VAR E7                  .             0.2000        +INF             .          
----- VAR E8                  .             2.4000        +INF             .          
+---- VAR E3                  .             0.3164        +INF             .          
+---- VAR E4                  .             1.3745        +INF             .          
+---- VAR E5                  .              .            +INF            2.0000      
+---- VAR E6                  .             0.4718        +INF             .          
+---- VAR E7                  .       -2.66454E-15        +INF             .          
+---- VAR E8                  .             2.9991        +INF             .          
 ---- VAR E9                  .              .            +INF            2.0000      
 ---- VAR E10                 .              .            +INF            2.0000      
 ---- VAR E11                 .              .            +INF            1.0000      
----- VAR E12                 .             0.7000        +INF             .          
+---- VAR E12                 .             0.3855        +INF             .          
 ---- VAR E13                 .              .            +INF            2.0000      
 ---- VAR E14                 .              .            +INF            2.0000      
 ---- VAR E15                 .              .            +INF            2.0000      
 ---- VAR E16                 .              .            +INF            2.0000      
 ---- VAR E17                 .              .            +INF            2.0000      
 ---- VAR E18                 .              .            +INF            2.0000      
----- VAR E19                 .             0.9000        +INF             .          
----- VAR E20                 .              .            +INF             .          
----- VAR E21                 .             0.8000        +INF             .          
+---- VAR E19                 .             0.4545        +INF             .          
+---- VAR E20                 .              .            +INF            2.0000      
+---- VAR E21                 .             0.4509        +INF             .          
 ---- VAR E22                 .              .            +INF            2.0000      
 ---- VAR E23                 .              .            +INF            2.0000      
----- VAR E24                 .             0.1000        +INF             .          
+---- VAR E24                 .              .            +INF            2.0000      
 ---- VAR E25                 .              .            +INF            2.0000      
----- VAR E26                 .              .            +INF            1.6000      
+---- VAR E26                 .              .            +INF            2.0000      
 ---- VAR E27                 .              .            +INF            2.0000      
 ---- VAR E28                 .              .            +INF            2.0000      
----- VAR E29                 .             0.7000        +INF             .          
+---- VAR E29                 .              .            +INF            2.0000      
 ---- VAR E30                 .              .            +INF            2.0000      
----- VAR E31                 .             1.1000        +INF             .          
----- VAR E32                 .             0.1000        +INF             .          
----- VAR E33                 .             0.1000        +INF             .          
+---- VAR E31                 .             0.7355        +INF             .          
+---- VAR E32                 .              .            +INF            2.0000      
+---- VAR E33                 .             0.1273        +INF             .          
 ---- VAR E34                 .              .            +INF            2.0000      
 ---- VAR E35                 .              .            +INF            2.0000      
 ---- VAR E36                 .              .            +INF            2.0000      
@@ -4752,12 +4961,12 @@ Objective:           79.400000
 ---- VAR E38                 .              .            +INF            2.0000      
 ---- VAR E39                 .              .            +INF            2.0000      
 ---- VAR E40                 .              .            +INF            2.0000      
----- VAR E41                 .              .            +INF             .          
----- VAR E42                 .             0.1000        +INF             .          
+---- VAR E41                 .              .            +INF            2.0000      
+---- VAR E42                 .             0.0209        +INF             .          
 ---- VAR E43                 .              .            +INF            2.0000      
----- VAR E44                 .             1.8000        +INF             .          
+---- VAR E44                 .             1.5709        +INF             .          
 ---- VAR E45                 .              .            +INF            2.0000      
----- VAR E46                 .             0.2000        +INF             .          
+---- VAR E46                 .             0.2455        +INF             .          
 ---- VAR E47                 .              .            +INF            2.0000      
 ---- VAR E48                 .              .            +INF            2.0000      
 ---- VAR E49                 .              .            +INF            2.0000      
@@ -4766,76 +4975,76 @@ Objective:           79.400000
 ---- VAR E52                 .              .            +INF            2.0000      
 ---- VAR E53                 .              .            +INF            2.0000      
 ---- VAR E54                 .              .            +INF            2.0000      
----- VAR E55                 .              .            +INF             .          
----- VAR E56                 .             0.2000        +INF             .          
+---- VAR E55                 .              .            +INF            2.0000      
+---- VAR E56                 .              .            +INF            2.0000      
 ---- VAR E57                 .              .            +INF            2.0000      
----- VAR E58                 .             0.2000        +INF             .          
+---- VAR E58                 .             0.4009        +INF             .          
 ---- VAR E59                 .              .            +INF            2.0000      
 ---- VAR E60                 .              .            +INF            2.0000      
 ---- VAR E61                 .              .            +INF            2.0000      
----- VAR E62                 .             2.6000        +INF             .          
+---- VAR E62                 .             2.6745        +INF             .          
 ---- VAR E63                 .              .            +INF            2.0000      
 ---- VAR E64                 .              .            +INF            2.0000      
 ---- VAR E65                 .              .            +INF            2.0000      
 ---- VAR E66                 .              .            +INF            2.0000      
 ---- VAR E67                 .              .            +INF            2.0000      
 ---- VAR E68                 .              .            +INF            2.0000      
----- VAR E69                 .             1.4000        +INF             .          
----- VAR E70                 .              .            +INF            1.0000      
----- VAR E71                 .             0.2000        +INF             .          
+---- VAR E69                 .             1.2227        +INF             .          
+---- VAR E70                 .              .            +INF            2.0000      
+---- VAR E71                 .              .            +INF            2.0000      
 ---- VAR E72                 .              .            +INF            2.0000      
 ---- VAR E73                 .              .            +INF            2.0000      
 ---- VAR E74                 .              .            +INF            2.0000      
 ---- VAR E75                 .              .            +INF            2.0000      
 ---- VAR E76                 .              .            +INF            2.0000      
 ---- VAR E77                 .              .            +INF            2.0000      
----- VAR E78                 .              .            +INF             .          
+---- VAR E78                 .              .            +INF            2.0000      
 ---- VAR E79                 .              .            +INF            2.0000      
 ---- VAR E80                 .              .            +INF            2.0000      
----- VAR E81                 .              .            +INF            1.0000      
----- VAR E82                 .              .            +INF            2.0000      
+---- VAR E81                 .              .            +INF            2.0000      
+---- VAR E82                 .              .            +INF            1.0000      
 ---- VAR E83                 .              .            +INF            1.0000      
----- VAR E84                 .             0.1000        +INF             .          
----- VAR E85                 .             0.9000        +INF             .          
+---- VAR E84                 .              .            +INF            2.0000      
+---- VAR E85                 .             0.3645        +INF             .          
 ---- VAR E86                 .              .            +INF            2.0000      
----- VAR E87                 .              .            +INF            0.7200      
----- VAR E88                 .             1.2000        +INF             .          
----- VAR E89                 .             0.5000        +INF             .          
+---- VAR E87                 .              .            +INF            2.0000      
+---- VAR E88                 .             0.9382        +INF             .          
+---- VAR E89                 .             0.2845        +INF             .          
 ---- VAR E90                 .              .            +INF            1.0000      
 ---- VAR E91                 .              .            +INF            2.0000      
 ---- VAR E92                 .              .            +INF            2.0000      
----- VAR E93                 .             1.2000        +INF             .          
+---- VAR E93                 .             1.2545        +INF             .          
 ---- VAR E94                 .              .            +INF            2.0000      
----- VAR E95                 .             0.1000        +INF             .          
+---- VAR E95                 .             0.1236        +INF             .          
 ---- VAR E96                 .              .            +INF            2.0000      
 ---- VAR E97                 .              .            +INF            2.0000      
----- VAR E98                 .              .            +INF            EPS         
----- VAR E99                 .             1.1000        +INF             .          
----- VAR E100                .             0.8000        +INF             .          
----- VAR E101                .             1.3000        +INF             .          
----- VAR E102                .             0.2000        +INF             .          
----- VAR E103                .             0.7000        +INF             .          
+---- VAR E98                 .              .            +INF            1.4545      
+---- VAR E99                 .             1.1464        +INF             .          
+---- VAR E100                .             0.4100        +INF             .          
+---- VAR E101                .             1.3955        +INF             .          
+---- VAR E102                .              .            +INF            2.0000      
+---- VAR E103                .             0.2655        +INF             .          
 ---- VAR E104                .              .            +INF            2.0000      
----- VAR E105                .             3.8000        +INF             .          
+---- VAR E105                .             3.4364        +INF             .          
 ---- VAR E106                .              .            +INF            2.0000      
 ---- VAR E107                .              .            +INF            2.0000      
 ---- VAR E108                .              .            +INF            2.0000      
 ---- VAR E109                .              .            +INF            2.0000      
----- VAR E110                .              .            +INF             .          
----- VAR F1                  .             0.1000        +INF             .          
----- VAR F2                  .              .            +INF             .          
----- VAR F3                  .             0.1000        +INF             .          
----- VAR F4                  .              .            +INF             .          
----- VAR F5                  .             0.1000        +INF             .          
----- VAR F6                  .              .            +INF           29.0000      
----- VAR F7                  .              .            +INF           70.0000      
----- VAR F8                  .              .            +INF           69.8800      
----- VAR F9                  .             0.1000        +INF             .          
----- VAR F10                 .              .            +INF             .          
----- VAR F11                 .              .            +INF            7.0000      
----- VAR F12                 .              .            +INF             .          
----- VAR F13                 .             0.6000        +INF             .          
----- VAR Z                 -INF           79.4000        +INF             .          
+---- VAR E110                .              .            +INF            2.0000      
+---- VAR F1                  .             0.0655        +INF             .          
+---- VAR F2                  .             0.0300        +INF             .          
+---- VAR F3                  .             0.0655        +INF             .          
+---- VAR F4                  .             0.0300        +INF             .          
+---- VAR F5                  .             0.0655        +INF             .          
+---- VAR F6                  .             0.0300        +INF             .          
+---- VAR F7                  .             0.0300        +INF             .          
+---- VAR F8                  .             0.0300        +INF             .          
+---- VAR F9                  .             0.0636        +INF             .          
+---- VAR F10                 .             0.0300        +INF             .          
+---- VAR F11                 .             0.0300        +INF             .          
+---- VAR F12                 .             0.0300        +INF             .          
+---- VAR F13                 .             0.5000        +INF             .          
+---- VAR Z                 -INF           90.3345        +INF             .          
 
 
 **** REPORT SUMMARY :        0     NONOPT
@@ -4843,15 +5052,14 @@ Objective:           79.400000
                              0  UNBOUNDED
 
 
-EXECUTION TIME       =        0.055 SECONDS      3 MB  48.6.1 67fbb04b LEX-LEG
+EXECUTION TIME       =        0.078 SECONDS      3 MB  49.4.0 6fb2fe8b WEX-WEI
 
 
-USER: Academic User                                  G250215+0003Ac-GEN
-      a01659147@tec.mx                                        CLA106887
-      License for teaching and research at degree granting institutions
+USER: GAMS Demo, for EULA and demo limitations see   G250131/0001CB-GEN
+      https://www.gams.com/latest/docs/UG%5FLicense.html         DC0000
 
 
 **** FILE SUMMARY
 
-Input      /home/alaiinx/Documentos/GAMS/Studio/workspace/proy_final/proy_final_M.gms
-Output     /home/alaiinx/Documentos/GAMS/Studio/workspace/proy_final/proy_final_M.lst
+Input      C:\Users\aldin\OneDrive\Imágenes\Documentos\Python\IA\optimi_final\proy_final\proy_final_M.gms
+Output     C:\Users\aldin\OneDrive\Imágenes\Documentos\Python\IA\optimi_final\proy_final\proy_final_M.lst

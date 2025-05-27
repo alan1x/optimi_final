@@ -1,0 +1,34 @@
+--- Job proy_final_F.gms Start 05/26/25 19:48:51 49.4.0 6fb2fe8b WEX-WEI x86 64bit/MS Windows
+--- Applying:
+    C:\GAMS\49\gmsprmNT.txt
+--- GAMS Parameters defined
+    Input C:\Users\aldin\OneDrive\Im�genes\Documentos\Python\IA\optimi_final\proy_final\proy_final_F.gms
+    PageSize 0
+    ScrDir C:\Users\aldin\OneDrive\Im�genes\Documentos\Python\IA\optimi_final\proy_final\225a\
+    SysDir C:\GAMS\49\
+    LogOption 3
+    ErrMsg 1
+    ErrorLog 99
+    IDE 1
+    LstTitleLeftAligned 1
+Licensee: GAMS Demo, for EULA and demo limitations see   G250131/0001CB-GEN
+          https://www.gams.com/latest/docs/UG%5FLicense.html         DC0000
+          C:\GAMS\49\gamslice.txt
+          Demo license for demonstration and instructional purposes only
+System information: 8 physical cores and 16 Gb memory detected
+GAMS 49.4.0   Copyright (C) 1987-2025 GAMS Development. All rights reserved
+--- Starting compilation
+--- proy_final_F.gms(104) 2 Mb 1 Error
+*** Error 140 in C:\Users\aldin\OneDrive\Im�genes\Documentos\Python\IA\optimi_final\proy_final\proy_final_F.gms
+    Unknown symbol
+--- proy_final_F.gms(106) 2 Mb 2 Errors
+*** Error 140 in C:\Users\aldin\OneDrive\Im�genes\Documentos\Python\IA\optimi_final\proy_final\proy_final_F.gms
+    Unknown symbol
+--- proy_final_F.gms(140) 2 Mb 4 Errors
+*** Error 257 in C:\Users\aldin\OneDrive\Im�genes\Documentos\Python\IA\optimi_final\proy_final\proy_final_F.gms
+    Solve statement not checked because of previous errors
+*** Error 299 in C:\Users\aldin\OneDrive\Im�genes\Documentos\Python\IA\optimi_final\proy_final\proy_final_F.gms
+    Unexpected end of file
+--- proy_final_F.gms(140) 2 Mb 4 Errors
+*** Status: Compilation error(s)
+--- Job proy_final_F.gms Stop 05/26/25 19:48:51 elapsed 0:00:00.006

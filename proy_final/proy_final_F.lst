@@ -1,4 +1,4 @@
-GAMS 49.4.0  6fb2fe8b Apr 6, 2025           WEX-WEI x86 64bit/MS Windows - 05/26/25 19:49:39 Page 1
+GAMS 49.4.0  6fb2fe8b Apr 6, 2025           WEX-WEI x86 64bit/MS Windows - 05/27/25 17:20:16 Page 1
 G e n e r a l   A l g e b r a i c   M o d e l i n g   S y s t e m
 C o m p i l a t i o n
 
@@ -146,7 +146,7 @@ C o m p i l a t i o n
 
 
 COMPILATION TIME     =        0.000 SECONDS      2 MB  49.4.0 6fb2fe8b WEX-WEI
-GAMS 49.4.0  6fb2fe8b Apr 6, 2025           WEX-WEI x86 64bit/MS Windows - 05/26/25 19:49:39 Page 2
+GAMS 49.4.0  6fb2fe8b Apr 6, 2025           WEX-WEI x86 64bit/MS Windows - 05/27/25 17:20:16 Page 2
 G e n e r a l   A l g e b r a i c   M o d e l i n g   S y s t e m
 Equation Listing    SOLVE Genero_X Using LP From line 140
 
@@ -655,7 +655,7 @@ R99..  F12 =G= 0.03 ; (LHS = 0, INFES = 0.03 ****)
 
 R100..  F13 =G= 0.03 ; (LHS = 0, INFES = 0.03 ****)
      
-GAMS 49.4.0  6fb2fe8b Apr 6, 2025           WEX-WEI x86 64bit/MS Windows - 05/26/25 19:49:39 Page 3
+GAMS 49.4.0  6fb2fe8b Apr 6, 2025           WEX-WEI x86 64bit/MS Windows - 05/27/25 17:20:16 Page 3
 G e n e r a l   A l g e b r a i c   M o d e l i n g   S y s t e m
 Column Listing      SOLVE Genero_X Using LP From line 140
 
@@ -1955,7 +1955,7 @@ Z
                 (.LO, .L, .UP, .M = -INF, 0, +INF, 0)
         1       f0
 
-GAMS 49.4.0  6fb2fe8b Apr 6, 2025           WEX-WEI x86 64bit/MS Windows - 05/26/25 19:49:39 Page 4
+GAMS 49.4.0  6fb2fe8b Apr 6, 2025           WEX-WEI x86 64bit/MS Windows - 05/27/25 17:20:16 Page 4
 G e n e r a l   A l g e b r a i c   M o d e l i n g   S y s t e m
 Range Statistics    SOLVE Genero_X Using LP From line 140
 
@@ -1966,7 +1966,7 @@ RHS       [min, max] : [ 3.000E-02, 1.000E+01] - Zero values observed as well
 Bound     [min, max] : [        NA,        NA] - Zero values observed as well
 Matrix    [min, max] : [ 1.000E+00, 1.000E+01]
 
-GAMS 49.4.0  6fb2fe8b Apr 6, 2025           WEX-WEI x86 64bit/MS Windows - 05/26/25 19:49:39 Page 5
+GAMS 49.4.0  6fb2fe8b Apr 6, 2025           WEX-WEI x86 64bit/MS Windows - 05/27/25 17:20:16 Page 5
 G e n e r a l   A l g e b r a i c   M o d e l i n g   S y s t e m
 Model Statistics    SOLVE Genero_X Using LP From line 140
 
@@ -1979,7 +1979,7 @@ NON ZERO ELEMENTS           756
 
 
 GENERATION TIME      =        0.016 SECONDS      3 MB  49.4.0 6fb2fe8b WEX-WEI
-GAMS 49.4.0  6fb2fe8b Apr 6, 2025           WEX-WEI x86 64bit/MS Windows - 05/26/25 19:49:39 Page 6
+GAMS 49.4.0  6fb2fe8b Apr 6, 2025           WEX-WEI x86 64bit/MS Windows - 05/27/25 17:20:16 Page 6
 G e n e r a l   A l g e b r a i c   M o d e l i n g   S y s t e m
 Solution Report     SOLVE Genero_X Using LP From line 140
 
@@ -2215,7 +2215,7 @@ Objective:           29.144286
                              0  UNBOUNDED
 
 
-EXECUTION TIME       =        0.157 SECONDS      3 MB  49.4.0 6fb2fe8b WEX-WEI
+EXECUTION TIME       =        0.079 SECONDS      3 MB  49.4.0 6fb2fe8b WEX-WEI
 
 
 USER: GAMS Demo, for EULA and demo limitations see   G250131/0001CB-GEN
