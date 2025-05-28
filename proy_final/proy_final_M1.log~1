@@ -1,5 +1,4 @@
-
---- Job proy_final_M.gms Start 05/27/25 18:07:54 49.4.0 6fb2fe8b WEX-WEI x86 64bit/MS Windows
+--- Job proy_final_M.gms Start 05/27/25 18:02:44 49.4.0 6fb2fe8b WEX-WEI x86 64bit/MS Windows
 --- Applying:
     C:\GAMS\49\gmsprmNT.txt
 --- GAMS Parameters defined
@@ -56,7 +55,7 @@ Iteration:    62   Dual objective     =            55.190696
 Iteration:   124   Dual objective     =            82.415882
 
 --- LP status (1): optimal.
---- Cplex Time: 0.00sec (det. 2.66 ticks)
+--- Cplex Time: 0.02sec (det. 2.66 ticks)
 
 
 Optimal solution found
@@ -64,4 +63,4 @@ Objective:           90.334545
 
 --- Reading solution for model Genero_X
 *** Status: Normal completion
---- Job proy_final_M.gms Stop 05/27/25 18:07:54 elapsed 0:00:00.060
+--- Job proy_final_M.gms Stop 05/27/25 18:02:44 elapsed 0:00:00.060
