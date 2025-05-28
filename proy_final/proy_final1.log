@@ -1,4 +1,5 @@
---- Job proy_final.gms Start 05/27/25 17:18:04 49.4.0 6fb2fe8b WEX-WEI x86 64bit/MS Windows
+
+--- Job proy_final.gms Start 05/27/25 18:06:25 49.4.0 6fb2fe8b WEX-WEI x86 64bit/MS Windows
 --- Applying:
     C:\GAMS\49\gmsprmNT.txt
 --- GAMS Parameters defined
@@ -19,7 +20,7 @@ System information: 8 physical cores and 16 Gb memory detected
 GAMS 49.4.0   Copyright (C) 1987-2025 GAMS Development. All rights reserved
 --- Starting compilation
 --- proy_final.gms(280) 2 Mb
---- Starting execution: elapsed 0:00:00.009
+--- Starting execution: elapsed 0:00:00.018
 --- Generating LP model Genero_X
 --- proy_final.gms(280) 3 Mb
 ---   226 rows  316 columns  2,701 non-zeroes
@@ -27,7 +28,7 @@ GAMS 49.4.0   Copyright (C) 1987-2025 GAMS Development. All rights reserved
 --- RHS       [min, max] : [ 3.000E-02, 1.000E+01] - Zero values observed as well
 --- Bound     [min, max] : [        NA,        NA] - Zero values observed as well
 --- Matrix    [min, max] : [ 1.000E+00, 1.000E+01]
---- Executing CPLEX (Solvelink=2): elapsed 0:00:00.027
+--- Executing CPLEX (Solvelink=2): elapsed 0:00:00.048
 
 IBM ILOG CPLEX   49.4.0 6fb2fe8b Apr 6, 2025           WEI x86 64bit/MS Window
 
@@ -46,7 +47,7 @@ CPXPARAM_MIP_Tolerances_AbsMIPGap                0
 Tried aggregator 1 time.
 LP Presolve eliminated 30 rows and 3 columns.
 Reduced LP has 195 rows, 313 columns, and 2351 nonzeros.
-Presolve time = 0.02 sec. (0.69 ticks)
+Presolve time = 0.00 sec. (0.69 ticks)
 Initializing dual steep norms . . .
 
 Iteration log . . .
@@ -56,7 +57,7 @@ Iteration:   124   Dual objective     =           103.208222
 Iteration:   186   Dual objective     =           124.720000
 
 --- LP status (1): optimal.
---- Cplex Time: 0.02sec (det. 4.05 ticks)
+--- Cplex Time: 0.00sec (det. 4.05 ticks)
 
 
 Optimal solution found
@@ -64,4 +65,4 @@ Objective:          126.553333
 
 --- Reading solution for model Genero_X
 *** Status: Normal completion
---- Job proy_final.gms Stop 05/27/25 17:18:04 elapsed 0:00:00.091
+--- Job proy_final.gms Stop 05/27/25 18:06:25 elapsed 0:00:00.168
